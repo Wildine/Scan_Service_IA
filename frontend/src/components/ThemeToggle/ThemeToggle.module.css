@@ -1,0 +1,16 @@
+.toggle {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  background: var(--panel-raised);
+  border: 1px solid var(--line-strong);
+  color: var(--text-dim);
+  padding: 7px 12px;
+  border-radius: var(--radius);
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.toggle:hover {
+  color: var(--text);
+  border-color: var(--text-dim);
+}

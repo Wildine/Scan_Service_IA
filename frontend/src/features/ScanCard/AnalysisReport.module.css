@@ -1,0 +1,142 @@
+.report {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.warning {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  font-size: 12px;
+  color: var(--amber);
+  background: var(--amber-wash);
+  border: 1px solid var(--amber-dim);
+  border-radius: var(--radius);
+  padding: 9px 11px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.sectionTitle {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--cyan);
+  margin: 0;
+  padding-bottom: 6px;
+  border-bottom: var(--border);
+}
+
+.text {
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--text);
+  margin: 0;
+}
+
+.riskRow {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.riskRow .text {
+  flex: 1;
+  color: var(--text-dim);
+}
+
+.list {
+  margin: 0;
+  padding-left: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.list li {
+  font-size: 12.5px;
+  line-height: 1.55;
+  color: var(--text-dim);
+}
+
+.recoList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.recoCard {
+  border: var(--border);
+  border-radius: var(--radius);
+  background: var(--panel-raised);
+  padding: 12px 14px;
+}
+
+.recoTitle {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 4px;
+}
+
+.recoJustification {
+  font-size: 12.5px;
+  line-height: 1.55;
+  color: var(--text-dim);
+  margin: 0 0 10px 0;
+}
+
+.commands {
+  background: var(--bg);
+  border: var(--border);
+  border-radius: var(--radius);
+  padding: 8px 10px;
+}
+
+.commandsHeader {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-faint);
+  margin-bottom: 6px;
+}
+
+.commandLine {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--amber);
+  white-space: pre-wrap;
+  word-break: break-all;
+  padding: 2px 0;
+}
+
+.limitations {
+  border-top: var(--border);
+  padding-top: 12px;
+}
+
+.limitationsLabel {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-faint);
+  margin-bottom: 5px;
+}
+
+.limitations .text {
+  color: var(--text-faint);
+  font-size: 12px;
+}

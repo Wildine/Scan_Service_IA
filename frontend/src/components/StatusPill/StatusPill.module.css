@@ -1,0 +1,31 @@
+.pill {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  padding: 3px 9px;
+  border-radius: 100px;
+  white-space: nowrap;
+  border: 1px solid transparent;
+}
+
+.running {
+  background: var(--amber-wash);
+  color: var(--amber);
+  border-color: var(--amber-dim);
+}
+
+.done {
+  background: var(--cyan-wash);
+  color: var(--cyan);
+  border-color: var(--cyan-dim);
+}
+
+.error {
+  background: var(--red-wash);
+  color: var(--red);
+}
+
+.stopped {
+  background: var(--panel-raised);
+  color: var(--text-faint);
+  border-color: var(--line-strong);
+}

@@ -1,0 +1,11 @@
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.note {
+  margin-top: 12px;
+  font-size: 11px;
+  line-height: 1.6;
+  color: var(--text-faint);
+}

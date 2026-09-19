@@ -1,0 +1,15 @@
+.row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: var(--text);
+  cursor: pointer;
+  margin-bottom: 18px;
+}
+
+.box {
+  width: 15px;
+  height: 15px;
+  accent-color: var(--amber);
+}

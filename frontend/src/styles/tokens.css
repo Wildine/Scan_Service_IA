@@ -1,0 +1,74 @@
+:root,
+[data-theme="dark"] {
+  /* Fond : bleu-nuit profond, pas de noir pur ni de vert néon */
+  --bg: #0a0e14;
+  --bg-grid: #0d1219;
+  --panel: #101722;
+  --panel-raised: #141d2b;
+  --line: #1e2a38;
+  --line-strong: #2a3a4d;
+
+  /* Texte */
+  --text: #dfe7ee;
+  --text-dim: #6d7f92;
+  --text-faint: #445062;
+
+  /* Accents fonctionnels - ambre phosphore (action / ports ouverts) */
+  --amber: #ffab2e;
+  --amber-dim: #6b4a17;
+  --amber-wash: rgba(255, 171, 46, 0.1);
+
+  /* Cyan froid - analyse IA / information */
+  --cyan: #4fd1c5;
+  --cyan-dim: #1f5a54;
+  --cyan-wash: rgba(79, 209, 197, 0.1);
+
+  /* État critique */
+  --red: #ff5d5d;
+  --red-wash: rgba(255, 93, 93, 0.12);
+
+  /* Typographie */
+  --font-mono: "JetBrains Mono", "IBM Plex Mono", ui-monospace, Menlo, monospace;
+  --font-sans: "IBM Plex Sans", "Inter", -apple-system, sans-serif;
+
+  /* Forme */
+  --radius: 3px;
+  --border: 1px solid var(--line);
+}
+
+[data-theme="light"] {
+  /* Fond : blanc cassé, pas de blanc pur */
+  --bg: #f3f5f8;
+  --bg-grid: #eaeef2;
+  --panel: #ffffff;
+  --panel-raised: #f6f8fa;
+  --line: #dde3ea;
+  --line-strong: #c5ced9;
+
+  /* Texte */
+  --text: #1a222c;
+  --text-dim: #57677a;
+  --text-faint: #8a97a6;
+
+  /* Accents fonctionnels - assombris pour rester lisibles sur fond clair */
+  --amber: #b5720a;
+  --amber-dim: #f0d9b0;
+  --amber-wash: rgba(181, 114, 10, 0.09);
+
+  /* Cyan froid - analyse IA / information */
+  --cyan: #0f8a7d;
+  --cyan-dim: #b9e6e0;
+  --cyan-wash: rgba(15, 138, 125, 0.09);
+
+  /* État critique */
+  --red: #c93b3b;
+  --red-wash: rgba(201, 59, 59, 0.09);
+
+  /* Typographie */
+  --font-mono: "JetBrains Mono", "IBM Plex Mono", ui-monospace, Menlo, monospace;
+  --font-sans: "IBM Plex Sans", "Inter", -apple-system, sans-serif;
+
+  /* Forme */
+  --radius: 3px;
+  --border: 1px solid var(--line);
+}

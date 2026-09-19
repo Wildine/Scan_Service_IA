@@ -1,0 +1,30 @@
+.badge {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  padding: 3px 9px;
+  border-radius: 100px;
+  white-space: nowrap;
+  border: 1px solid transparent;
+}
+
+.low {
+  background: var(--cyan-wash);
+  color: var(--cyan);
+  border-color: var(--cyan-dim);
+}
+
+.medium {
+  background: var(--amber-wash);
+  color: var(--amber);
+  border-color: var(--amber-dim);
+}
+
+.high {
+  background: var(--red-wash);
+  color: var(--red);
+}
+
+.critical {
+  background: var(--red);
+  color: #1a0000;
+}

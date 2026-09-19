@@ -1,0 +1,6 @@
+scapy
+openai
+python-dotenv
+tabulate
+fastapi
+uvicorn[standard]

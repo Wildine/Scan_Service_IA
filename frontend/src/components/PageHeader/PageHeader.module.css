@@ -1,0 +1,18 @@
+.header {
+  margin-bottom: 24px;
+}
+
+.header h1 {
+  font-family: var(--font-mono);
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+  color: var(--text);
+}
+
+.header p {
+  margin: 6px 0 0;
+  color: var(--text-dim);
+  font-size: 13px;
+  max-width: 65ch;
+}

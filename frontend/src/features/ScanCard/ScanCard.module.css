@@ -1,0 +1,105 @@
+.card {
+  border: var(--border);
+  border-radius: var(--radius);
+  margin-bottom: 10px;
+  overflow: hidden;
+  background: var(--panel);
+}
+
+.head {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 13px 16px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  color: inherit;
+}
+
+.head:hover {
+  background: var(--panel-raised);
+}
+
+.headRight {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.chevron {
+  color: var(--text-faint);
+  flex-shrink: 0;
+}
+
+.stopBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--red);
+  background: var(--red-wash);
+  border: 1px solid transparent;
+  border-radius: 100px;
+  padding: 3px 9px;
+  cursor: pointer;
+}
+
+.stopBtn:hover {
+  border-color: var(--red);
+}
+
+.stopBtn:disabled {
+  opacity: 0.6;
+  cursor: default;
+  font-family: var(--font-mono);
+  font-size: 13.5px;
+  font-weight: 600;
+}
+
+.meta {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--text-dim);
+  margin-top: 3px;
+}
+
+.modalStatus {
+  margin-bottom: 14px;
+}
+
+.ports {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 14px;
+}
+
+.placeholder {
+  font-size: 12.5px;
+  color: var(--text-dim);
+  margin: 0;
+}
+
+.progress {
+  margin-bottom: 14px;
+}
+
+.progressBar {
+  margin-top: 8px;
+  height: 4px;
+  border-radius: 100px;
+  background: var(--line);
+  overflow: hidden;
+}
+
+.progressFill {
+  height: 100%;
+  background: var(--amber);
+  transition: width 0.3s ease;
+}
+
+
