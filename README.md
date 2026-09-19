@@ -25,7 +25,7 @@ elles en HTTP.
 | **Node.js** | **18 ou plus récent (LTS)** | `node --version` |
 | npm | fourni avec Node.js | `npm --version` |
 
-⚠️ Le frontend est écrit en **React**, qui nécessite **Node.js** (ce
+Le frontend est écrit en **React**, qui nécessite **Node.js** (ce
 n'est pas du Python). Sans Node.js installé, `npm install` et
 `npm run dev` ne fonctionneront pas.
 
