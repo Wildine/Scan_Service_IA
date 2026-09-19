@@ -1,4 +1,4 @@
-# AI Port Scanner - package de test
+# AI Port Scanner
 
 Ce dépôt contient uniquement la fonctionnalité **"Scanner de ports"** du
 projet (backend + frontend), extraite pour permettre de la tester
