@@ -15,10 +15,6 @@ app/
   data/scans_history.json
 ```
 
-Les prochains outils (brute force, DoS, sniffer...) s'ajoutent en créant
-un router dans `api/routes/`, un service dans `services/`, et en
-l'incluant dans `main.py`.
-
 ## Lancement
 
 ```
